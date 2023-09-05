@@ -1,27 +1,19 @@
-# React + TypeScript + Vite
+# ✅ Quiz de JavaScript ✅
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Página para contestar una serie de preguntas relacionadas al lenguaje programación de JavaScript. Utilizando el entorno de desarrollo de [Vite](https://vitejs.dev/)
 
-Currently, two official plugins are available:
+## Acceder a la página 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Se ha alojado en GitHub Pages.
 
-## Expanding the ESLint configuration
+Haga clic en el enlace para verla: [Quiz de JavaScript](https://juanjo21-01.github.io/front-javascript-quizz/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Construido con 🛠️
 
-- Configure the top-level `parserOptions` property like this:
+- [React](https://es.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Material UI](https://mui.com/material-ui/)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Fuente ✒️
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Tomado del curso de [Midudev](https://midu.dev/)
