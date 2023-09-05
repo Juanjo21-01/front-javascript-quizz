@@ -16,7 +16,7 @@ function App() {
         justifyContent="center"
       >
         {/* logo */}
-        <img src="/js.svg" alt="logo" />
+        <img src="/front-javascript-quizz/js.svg" alt="logo" />
 
         {/* titulo */}
         <Typography variant="h2" component="h1">

@@ -57,7 +57,6 @@ export const useQuestionsStore = create<State>()(persist((set, get) => {
 
         goNextQuestion: () => {
             const { questions, currentQuestion } = get();
-            const nextQuestion = currentQuestion + 1;
 
             if (currentQuestion < questions.length - 1) {
                 set({ currentQuestion: currentQuestion + 1 });
